@@ -25,9 +25,13 @@ body {
 }
 
 .foco {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .paciencia {
-  font-size: 16px;
+  font-size: 18px;
+}
+
+.empatia {
+  font-size: 14px;
 }
