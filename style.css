@@ -1,19 +1,17 @@
 body {
   background: Linear-gradient(0deg,#1F8C4E,#30D979);
+  color: #faf9f9;
 }
 
-.indice1,.indice2 {
-  margin: 5px;
-  padding: 20px;
+.indice1, .indice2, .link-fotoPerfil, .blog-favorito {
+  margin: 0px;
+  padding: 15px;
+  display: inline-block;
   background-color: #145932;
   font-size: 20px;
   text-decoration: none;
-  color: whitesmoke;
-  border-radius: 5px;
-}
-
-.teste {
-  display: block;
+  border-radius: 10px;
+  color: #faf9f9;
 }
 
 .meu-nome {
