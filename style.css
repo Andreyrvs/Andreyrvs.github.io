@@ -2,10 +2,20 @@ body {
   background-color: #1F8C4E;
 }
 
-h1 {
-  font-family: monospace;
+.indice {
+  font-size: 20px;
 }
 
-#descricao {
+.nome {
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.descricao {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+
+.nacionalidade {
+  font-size: 17px;
 }
