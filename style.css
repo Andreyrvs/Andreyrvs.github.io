@@ -2,16 +2,26 @@ body {
   background: Linear-gradient(0deg,#1F8C4E,#30D979);
 }
 
-.indice {
+.indice1,.indice2 {
+  margin: 5px;
+  padding: 20px;
+  background-color: #145932;
   font-size: 20px;
+  text-decoration: none;
+  color: whitesmoke;
+  border-radius: 5px;
 }
 
-.nome {
+.teste {
+  display: block;
+}
+
+.meu-nome {
   font-family: monospace;
   font-size: 30px;
 }
 
-.descricao {
+.sobre-eu {
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 20px;
 }
@@ -24,14 +34,14 @@ body {
   font-size: 24px;
 }
 
-.foco {
+.habilidade-foco {
   font-size: 22px;
 }
 
-.paciencia {
+.habilidade-paciencia {
   font-size: 18px;
 }
 
-.empatia {
+.habilidade-empatia {
   font-size: 14px;
 }
