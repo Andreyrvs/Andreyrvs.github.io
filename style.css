@@ -1,0 +1,45 @@
+body {
+  background: Linear-gradient(0deg,#1F8C4E,#30D979);
+  color: #faf9f9;
+}
+
+.indice1, .indice2, .link-fotoPerfil, .blog-favorito {
+  margin: 0px;
+  padding: 15px;
+  display: inline-block;
+  background-color: #145932;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #faf9f9;
+}
+
+.meu-nome {
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.sobre-eu {
+  font-family:;
+  font-size: 20px;
+}
+
+.nacionalidade {
+  font-size: 17px;
+}
+
+.habilidade-principal {
+  font-size: 24px;
+}
+
+.habilidade-foco {
+  font-size: 22px;
+}
+
+.habilidade-paciencia {
+  font-size: 18px;
+}
+
+.habilidade-empatia {
+  font-size: 14px;
+}
