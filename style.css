@@ -61,5 +61,8 @@ body {
 }
 
 ul li:nth-child(odd) {
-  background-color: aqua;
+  background-color: green;
+  width: 200px;
+  border-radius: 5px;
+  margin: 2px;
 }
