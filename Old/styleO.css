@@ -1,0 +1,68 @@
+body {
+  background: Linear-gradient(0deg,#1F8C4E,#30D979);
+  color: #faf9f9;
+}
+
+.indice1, .indice2, .link-fotoPerfil, .blog-favorito {
+  margin: 0px;
+  padding: 15px;
+  display: inline-block;
+  background-color: #145932;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #faf9f9;
+}
+
+.meu-nome {
+  font-family: monospace;
+  font-size: 30px;
+  text-align: center;
+}
+
+.sobre-eu {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  position: absolute;
+  left: 450px;
+}
+
+.nacionalidade {
+  font-size: 17px;
+}
+
+.habilidade-principal {
+  font-size: 24px;
+}
+
+.habilidade-foco {
+  font-size: 22px;
+}
+
+.habilidade-paciencia {
+  font-size: 18px;
+}
+
+.habilidade-empatia {
+  font-size: 14px;
+}
+
+#perfil {
+  float: left;
+  padding: 10px;
+  margin: 1px;
+  background-color: wheat;
+}
+
+.imagem-descricao { 
+  height: 420px;
+  position: relative;
+}
+
+ul li:nth-child(odd) {
+  background-color: green;
+  width: 200px;
+  border-radius: 5px;
+  margin: 2px;
+}
