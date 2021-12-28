@@ -46,6 +46,11 @@ body {
   background-color: blue;
 }
 
+.help-container {
+  border-radius: 2px;
+  background-color: white;
+  font-family: monospace;
+}
 .vqv-container {
   margin: 10px;
 }
@@ -53,6 +58,8 @@ body {
 .vqv-container > input {
   width: 154px;
 }
+
+
 
 #clear-board {
   padding: 5px 15px;
