@@ -9,6 +9,7 @@ function w3_close() {
   document.getElementById("myOverlay").style.display = "none";
 }
 
+// ===== Ao clicar na imagem redireciona para o projeto ===== //
 const todoList = document.getElementById('todoList');
 
 todoList.addEventListener('click', () => {
@@ -19,5 +20,18 @@ todoList.addEventListener('click', () => {
 const pixelArt = document.getElementById('pixelArt');
 
 pixelArt.addEventListener('click', () => {
-  location.href = '/projetos/sd-017-project-pixels-art2/index.html'
+  location.href = '/projetos/sd-017-project-pixels-art2/index.html';
+});
+
+// ===== Ao clicar no icone redireciona para o social ===== //
+const linkedin = document.getElementById('linkedin');
+
+linkedin.addEventListener('click', () => {
+  location.href = 'https://www.linkedin.com/in/andreyrvs/';
+});
+
+const github = document.getElementById('github');
+
+github.addEventListener('click', () => {
+  location.href = 'https://github.com/Andreyrvs'
 });
