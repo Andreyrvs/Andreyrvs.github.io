@@ -47,8 +47,8 @@ function generateButtons(textBtn, id) {
   const buttons = document.createElement('button');
   buttons.innerText = textBtn;
   buttons.id = id;
-  buttons.className = 'w3-border w3-round w3-hover-deep-orange';
-  buttons.style.marginRight = '20px';
+  buttons.className = 'w3-border w3-round w3-hover-deep-orange btn-lista';
+  // buttons.style.marginRight = '20px';
   buttons.style.userSelect = 'none';
   btnContainer.appendChild(buttons);
 }

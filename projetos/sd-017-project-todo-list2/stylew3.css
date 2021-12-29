@@ -1,0 +1,103 @@
+@media only screen and (min-width: 992px) {
+  body {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+  }
+  
+  main {
+    font-size: 20px;
+  }
+  
+  .input-btn-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  #texto-tarefa {
+    display: flex; 
+    height: 30px;
+    width: 270px;
+  }
+  
+  #criar-tarefa {
+    margin-left: 10px;
+  }
+
+  .btn-lista {
+    margin: 5px;
+  }
+}
+
+body {
+  background: linear-gradient(to right , rgb(5 , 117 , 230) , rgb(0 , 242 , 96));
+  font-family: monospace;
+}
+
+.shadow-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(50 , 50 , 93 , 0.25) 0 50px 100px -20px , rgba(0 , 0 , 0 , 0.3)
+    0 30px 60px -30px , rgba(10 , 37 , 64 , 0.35) 0 -2px 6px 0 inset;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: -20px;
+}
+
+#funcionamento {
+  /* font-size: 15px; */
+}
+
+main {
+  /* background-color: white; */
+}
+
+.input-btn-container {
+  /* display: flex;
+  flex-wrap: nowrap; */
+}
+
+#texto-tarefa {
+  /* display: flex; 
+  height: 30px;
+  width: 270px; */
+}
+
+#texto-tarefa::placeholder {
+  color: rgb(182 , 182 , 182);
+  /* font-size: 15px; */
+}
+
+#criar-tarefa {
+  align-items: center;
+  /* display: flex; */
+  /* margin-left: 10px; */
+  /* height: 30px; */
+  user-select: none;
+}
+
+#lista-tarefas {
+  /* padding-bottom: 10px; */
+  /* padding-top: 10px; */
+  user-select: none;
+}
+
+.bgColor {
+  background-color: rgb(128 , 128 , 128);
+}
+
+.completed {
+  text-decoration: line-through solid rgb(0 , 0 , 0);
+}
+
+.btn-container {
+  margin-bottom: 20px;
+  /* font-size: 10px; */
+}
+
+.btn-lista {
+  font-size: 10px;
+  margin-right: 5px;
+}
