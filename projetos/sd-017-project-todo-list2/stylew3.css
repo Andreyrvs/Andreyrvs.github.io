@@ -11,7 +11,6 @@
   
   .input-btn-container {
     display: flex;
-    flex-wrap: nowrap;
   }
   
   #texto-tarefa {
@@ -46,41 +45,27 @@ header {
   margin-bottom: -20px;
 }
 
-#funcionamento {
-  /* font-size: 15px; */
-}
-
 main {
-  /* background-color: white; */
+  margin-bottom: 20px;
 }
 
 .input-btn-container {
-  /* display: flex;
-  flex-wrap: nowrap; */
-}
-
-#texto-tarefa {
-  /* display: flex; 
-  height: 30px;
-  width: 270px; */
+  display: flex;
+  font-size: 15px;
+  flex-flow: nowrap;
 }
 
 #texto-tarefa::placeholder {
   color: rgb(182 , 182 , 182);
-  /* font-size: 15px; */
 }
 
 #criar-tarefa {
-  align-items: center;
-  /* display: flex; */
-  /* margin-left: 10px; */
-  /* height: 30px; */
+  font-size: 10px;
+  margin-left: 10px;
   user-select: none;
 }
 
 #lista-tarefas {
-  /* padding-bottom: 10px; */
-  /* padding-top: 10px; */
   user-select: none;
 }
 
@@ -90,11 +75,6 @@ main {
 
 .completed {
   text-decoration: line-through solid rgb(0 , 0 , 0);
-}
-
-.btn-container {
-  margin-bottom: 20px;
-  /* font-size: 10px; */
 }
 
 .btn-lista {
