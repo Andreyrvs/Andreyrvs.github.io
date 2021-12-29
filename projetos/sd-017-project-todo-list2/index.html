@@ -4,29 +4,35 @@
   <title>Projeto Todo List</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylew3.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <section class="header-container">
+
+<body class="w3-container" style="max-width:1600px">
+
+  <section class="w3-container shadow-container">
     <header>
-      <h1>Minha Lista de Tarefas</h1>
+      <section class="w3-container">
+        <h1>Minha Lista de Tarefas</h1>
+        <p class="w3-panel w3-sand w3-leftbar w3-border-deep-orange" id="funcionamento">Clique duas vezes em um item para marcá-lo como completo
+        </section>
+      </p>
     </header>
-    <section >
-      <p class="w3-panel w3-sand w3-leftbar w3-border-deep-orange" id="funcionamento">Clique duas vezes em um item para marcá-lo como completo
-      </section>
-    </p>
-    <main>
-      <section class="input-btn-container">
+
+    <main class="w3-main">
+      <section class="input-btn-container w3-container">
         <input class="w3-input w3-border w3-round" type="text" id="texto-tarefa" placeholder="Digite aqui">
         <button class="w3-border w3-round w3-hover-deep-orange" id="criar-tarefa">Criar Tarefa</button>
       </section>
-      <section class="lista-container">
+
+      <section class="lista-container w3-container">
         <ol id="lista-tarefas"></ol>
       </section>
-      <section class="btn-container"></section>
+
+      <section class="btn-container w3-container"></section>
     </main>
   </section>
+
 </body>
 <script src="script.js"></script>
 </html>
