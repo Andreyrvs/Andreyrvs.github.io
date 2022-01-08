@@ -33,5 +33,11 @@ linkedin.addEventListener('click', () => {
 const github = document.getElementById('github');
 
 github.addEventListener('click', () => {
-  location.href = 'https://github.com/Andreyrvs'
+  location.href = 'https://github.com/Andreyrvs';
+});
+
+const solarSystem = document.querySelector('solar-system');
+
+solarSystem.addEventListener('click', () => {
+  location.href = 'https://andreyrvs.github.io/solar-system/';
 });
