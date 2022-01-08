@@ -36,7 +36,7 @@ github.addEventListener('click', () => {
   location.href = 'https://github.com/Andreyrvs';
 });
 
-const solarSystem = document.querySelector('solar-system');
+const solarSystem = document.getElementById('solar-system');
 
 solarSystem.addEventListener('click', () => {
   location.href = 'https://andreyrvs.github.io/solar-system/';
