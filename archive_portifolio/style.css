@@ -1,0 +1,31 @@
+html {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1,125rem;
+  line-height: 1.5;
+}
+
+/* #instagram, #github, #linkedin{
+  font-size: 25px;
+  margin-right: 15px;
+} */
+
+kbd {
+  font-size: 12px;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+main {
+  width: min(65ch, 100% - 4rem);
+  margin-inline: auto;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+}
